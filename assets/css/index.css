@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Playfair+Display&family=Playpen+Sans&family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.active {
+  font-weight: 800;
+}
+header .containar {
+  width: calc(100% - 120px);
+  margin: auto;
+}
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding: 20px 0px;
+  box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.1);
+}
+header .navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .containar .navbar .logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+header .logo img {
+  width: 30px;
+}
+header .logo a {
+  text-decoration: none;
+  color: #545be8;
+  font-family: "Roboto", sans-serif;
+}
+header .containar .navbar nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+header .containar .navbar nav a {
+  text-decoration: none;
+  color: #101928;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+header .containar .authantication {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+header .containar .authantication a {
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid #545be8;
+  padding: 5px 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .containar .authantication .login {
+  color: #545be8;
+}
+header .containar .authantication .register {
+  color: #fff;
+  background-color: #545be8;
+}
